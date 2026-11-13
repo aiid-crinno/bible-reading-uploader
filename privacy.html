@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>개인정보처리방침 — 1년 성경통독 업로더</title>
-<style>body{font-family:system-ui,"Noto Sans KR",sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.7;color:#1d1d1f}h1{font-size:1.5rem}h2{font-size:1.15rem;margin-top:2em}a{color:#0b57d0}</style></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — 1Year Bible Reading Uploader</title>
+<style>body{font-family:system-ui,"Noto Sans KR",sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.7;color:#1d1d1f}h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.8em}a{color:#0b57d0}nav{display:flex;gap:18px;padding:10px 0;border-bottom:1px solid #ddd;margin-bottom:24px;font-size:.95rem}.ch{display:flex;gap:18px;align-items:center;background:#f6f6f6;border-radius:12px;padding:16px}.ch img{width:96px;height:96px;border-radius:50%}.yt{color:#c00;font-weight:700}footer{margin-top:40px;padding-top:12px;border-top:1px solid #ddd;font-size:.9rem;color:#555}</style></head>
 <body>
-<h1>개인정보처리방침 (Privacy Policy)</h1>
-<p>최종 수정일: 2026년 11월 12일</p>
-<h2>한국어</h2>
-<p>「1년 성경통독 업로더」는 YouTube 채널 「1년 성경통독」의 운영자가 본인 채널에 본인이 만든 영상을 YouTube API 서비스로 업로드·예약하기 위해서만 사용하는 개인용 도구입니다.</p>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy Policy / 개인정보처리방침</a><a href="terms.html">Terms of Service / 서비스 약관</a></nav>
+<h1>Privacy Policy <small style="font-weight:400;color:#555">· 개인정보처리방침</small></h1>
+<p>Effective date: November 13, 2026</p>
+<h2>1. About this tool and YouTube API Services</h2>
+<p>“1Year Bible Reading Uploader” is a private, single-user tool operated by the owner of the YouTube channel <a href="https://www.youtube.com/channel/UCr79tOZ-yKpLaRsyTpZalYQ">1년 성경통독</a>. It uses <b>YouTube API Services</b> to upload and schedule the owner’s own videos to the owner’s own channel. By using this tool, users agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google’s handling of data is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+<h2>2. Information accessed, collected, and stored</h2>
 <ul>
-<li>운영자 외 다른 사람의 개인정보를 수집·저장·공유·판매하지 않습니다.</li>
-<li>Google OAuth 인증 토큰은 운영자 본인의 컴퓨터에만 저장되며, 운영자 채널에 영상을 올리고 공개 시간을 예약하는 데에만 사용됩니다.</li>
-<li>YouTube 데이터는 업로드한 본인 영상의 ID 기록 외에는 저장하지 않습니다.</li>
-<li>업로드된 영상은 <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>과 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>의 적용을 받습니다.</li>
-<li>권한은 언제든지 <a href="https://myaccount.google.com/permissions">Google 계정 권한 설정</a>에서 해제할 수 있습니다.</li>
+<li><b>Google OAuth token</b> (scope <code>youtube.upload</code> only): stored only as a local file on the owner’s own computer.</li>
+<li><b>Upload log</b>: the ID and scheduled publish time of each video the owner uploads, stored in a local CSV file.</li>
+<li>The tool does not access, collect, or store any other YouTube or Google account data (no viewing data, comments, subscribers, analytics, or contacts). It does not use cookies or tracking technologies, and there is no hosted server.</li>
 </ul>
-<h2>English</h2>
-<p>"1Year Bible Reading Uploader" is a private tool used only by the owner of the YouTube channel "1년 성경통독" to upload and schedule the owner's own videos through the YouTube API Services.</p>
+<h2>3. How the information is used</h2>
+<p>The token is used solely to call the YouTube Data API <code>videos.insert</code> endpoint to upload the owner’s videos and set their scheduled publish time. The upload log is used only to keep track of which episodes have been uploaded.</p>
+<h2>4. Sharing</h2>
+<p>No information is shared with, sold to, or disclosed to any third party. Video files and metadata are sent only to YouTube (Google) through the YouTube API Services.</p>
+<h2>5. Deletion and revoking access</h2>
 <ul>
-<li>It does not collect, store, share or sell personal data of any other person.</li>
-<li>The Google OAuth token is stored only on the owner's computer and is used solely to upload and schedule videos on the owner's channel.</li>
-<li>No YouTube data is stored other than a local log of the IDs of the owner's uploaded videos.</li>
-<li>Uploaded videos are subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
-<li>Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">Google Account permissions</a>.</li>
+<li>Access can be revoked at any time via the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a> (Google Account → Third-party connections).</li>
+<li>When access is revoked or the tool is no longer used, the local token file and upload log are permanently deleted from the owner’s computer within 7 days.</li>
+<li>Uploaded videos can be deleted at any time in YouTube Studio; they remain subject to the YouTube Terms of Service and the Google Privacy Policy.</li>
 </ul>
-<p>문의 / Contact: crinno@naver.com</p>
+<h2>6. Contact</h2>
+<p>Questions about this policy: please open an issue at <a href="https://github.com/aiid-crinno/bible-reading-uploader/issues">github.com/aiid-crinno/bible-reading-uploader/issues</a>.</p>
+<h2>한국어 요약</h2>
+<ul>
+<li>이 도구는 <b>YouTube API 서비스</b>를 사용하며, 사용자는 <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>에 동의하게 됩니다. Google의 데이터 처리는 <a href="http://www.google.com/policies/privacy">Google 개인정보처리방침</a>을 따릅니다.</li>
+<li>저장하는 정보: 업로드 전용 OAuth 토큰(운영자 컴퓨터에만 저장)과 업로드한 영상 ID 기록뿐입니다. 쿠키·추적 기술을 쓰지 않으며 제3자와 공유하지 않습니다.</li>
+<li>권한은 <a href="https://security.google.com/settings/security/permissions">Google 보안 설정 페이지</a>에서 언제든 해제할 수 있고, 해제하거나 사용을 중단하면 7일 안에 토큰과 기록 파일을 삭제합니다.</li>
+</ul>
+<footer>1Year Bible Reading Uploader uses <span class="yt">YouTube API Services</span>. · <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> · <a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="privacy.html">Privacy Policy</a></footer>
 </body></html>
